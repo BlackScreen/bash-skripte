@@ -35,7 +35,7 @@ DESTINATION_DIR=/home/$USER/ffmpeg_bins
 TIMESTAMPED_DIR=$DESTINATION_DIR/ffmpeg_$(date +"%Y-%m-%d")_$(date +"%H-%M-%S")
 
 # Speichere die Pfade zu den selbst kompilierten EXE-Dateien in eigene Variablen ab
-FFMPEG_EXE_PATH=$SANDBOX_DIR/ffmpeg_git_with_fdk_aac
+FFMPEG_EXE_PATH=$SANDBOX_DIR/ffmpeg_git_with_fdk_aac_master
 LAME_EXE_PATH=$SANDBOX_DIR/lame_svn/frontend
 MP4BOX_EXE_PATH=$SANDBOX_DIR/mp4box_gpac_git/bin/gcc
 X264_EXE_PATH=$SANDBOX_DIR/x264_with_libav_all_bitdepth
